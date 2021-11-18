@@ -1,9 +1,13 @@
-.body { 
+.body {
+    background-color: #36454f;
+}
+
+.card-body { 
     background-color: #000080;
 }
 
 .home-body {
-    background-color: #1a1a1a;
+    background-color: #3d4849;
     text-align: center;
     color:blue;
     
