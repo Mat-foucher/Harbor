@@ -2,6 +2,7 @@ body {
     background-image: url("https://mat-foucher.github.io/Harbor/images/harbor1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .card-body { 
