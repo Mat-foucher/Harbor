@@ -1,6 +1,6 @@
 body {
     background-color: #36454f;
-    background-image: url(https://mat-foucher.github.io/Harbor/images/harbor1.jpg);
+    background-image: url('/images/harbor1.jpg');
 }
 
 .card-body { 
