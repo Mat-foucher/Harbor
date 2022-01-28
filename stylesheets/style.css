@@ -2,6 +2,7 @@
 .card {
     height: 500px;
     background-color:darkslategray;
+    background: scroll;
 }
 
 .parallax {
