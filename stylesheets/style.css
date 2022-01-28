@@ -1,21 +1,62 @@
-body {
-    background-image: url("https://mat-foucher.github.io/Harbor/images/harbor1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+
+
+.parallax {
+    height: 500px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
 }
 
-.card-body { 
-    background-color: #000080;
+.parallax_group {
+    position: relative;
+    height: 500px;
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
-.home-body {
-    background-color: #000000;
+.parallax_layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.parallax_layer--fore {
+    -webkit-transform: translateZ(999px) scale(.7);
+    transform: translateZ(999px) scale(.7);
+    z-index: 1;
+}
+
+.parallax_layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+}
+
+.parallax_layer--back { 
+    -webkit-transform: translate(-999px) scale(2);
+    transform: translateZ(-999px) scale(2);
+    z-index: 3;
+}
+
+.parallax_layer--deep { 
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
+    z-index: 2;
+}
+
+/* Text Formatting */
+.title {
     text-align: center;
-    color:blue;
-    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.card {
-    background-color: #000080;
-}
+
