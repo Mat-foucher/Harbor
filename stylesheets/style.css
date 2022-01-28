@@ -1,4 +1,8 @@
 
+.card {
+    height: 500px;
+    background-color:darkslategray;
+}
 
 .parallax {
     height: 500px;
@@ -58,5 +62,6 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 
 
