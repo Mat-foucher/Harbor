@@ -85,8 +85,9 @@
     z-index: 3;
 }
 #group2 .parallax_layer--deep{
-    background-image: url('https://mat-foucher.github.io/Harbor/images/IMG_2063.JPG');
-    
+    background-image: url('https://mat-foucher.github.io/Harbor/images/harbor1.jpg');
+    color:ivory;
+    font-size: 400%;
 }
 
 #group3 {
