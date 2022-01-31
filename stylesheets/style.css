@@ -5,6 +5,14 @@
     background: scroll;
 }
 
+.body {
+    font: 100% / 1.5 Arial;
+}
+
+.parallax {
+    font-size: 200%;
+}
+
 .parallax {
     height: 500px;
     height: 100vh;
