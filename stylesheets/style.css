@@ -92,6 +92,7 @@
     background-image: url('https://mat-foucher.github.io/Harbor/images/harbor1.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background: black;
 }
 
 #group3 {
@@ -99,4 +100,11 @@
 }
 #group3 .parallax_layer--base{
     background: grey;
+}
+
+#group4 {
+    z-index:3;
+}
+#group4 {
+    
 }
