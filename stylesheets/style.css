@@ -77,7 +77,7 @@
 #group1 {
     z-index: 5;
 }
-#group1 .parallax_layer--back{
+#group1 .parallax_layer--base{
     background: grey;
 }
 
@@ -91,6 +91,6 @@
 #group3 {
     z-index: 4;
 }
-#group3 .parallax_layer--back{
+#group3 .parallax_layer--base{
     background: grey;
 }
