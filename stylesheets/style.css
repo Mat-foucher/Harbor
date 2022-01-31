@@ -75,21 +75,21 @@
 /* GROUP FOMRTTING CSS */
 
 #group1 {
-    z-index: 4;
+    z-index: 5;
 }
 #group1 .parallax_layer--back{
     background: orange;
 }
 
 #group2 {
-    z-index: 2;
+    z-index: 3;
 }
 #group2 .parallax_layer--deep{
     background: lightslategray;
 }
 
 #group3 {
-    z-index: 3;
+    z-index: 4;
 }
 #group3 .parallax_layer--back{
     background: orangered;
