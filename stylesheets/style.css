@@ -69,20 +69,20 @@
 #group1 {
     z-index: 3;
 }
-#group1 {
+#group1 .parallax_layer--back{
     background: orange;
 }
 
 #group2 {
     z-index: 2;
 }
-#group2 {
+#group2 .parallax_layer--deep{
     background: lightslategray;
 }
 
 #group3 {
     z-index: 3;
 }
-#group3 {
+#group3 .parallax_layer--back{
     background: orangered;
 }
