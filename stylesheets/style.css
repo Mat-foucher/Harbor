@@ -67,7 +67,7 @@
 /* GROUP FOMRTTING CSS */
 
 #group1 {
-    z-index: 3;
+    z-index: 4;
 }
 #group1 .parallax_layer--back{
     background: orange;
