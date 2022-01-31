@@ -106,6 +106,6 @@
 #group4 {
     z-index:3;
 }
-#group4 {
-    
+#group4 .parallax_layer--back{
+    background:black;
 }
