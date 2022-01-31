@@ -64,5 +64,25 @@
     transform: translate(-50%, -50%);
 }
 
+/* GROUP FOMRTTING CSS */
 
+#group1 {
+    z-index: 3;
+}
+#group1 {
+    background: orange;
+}
 
+#group2 {
+    z-index: 2;
+}
+#group2 {
+    background: lightslategray;
+}
+
+#group3 {
+    z-index: 3;
+}
+#group3 {
+    background: orangered;
+}
