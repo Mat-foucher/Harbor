@@ -7,6 +7,7 @@
 
 .body {
     font: 100% / 1.5 Arial;
+    background: black;
 }
 
 .parallax {
@@ -92,7 +93,7 @@
     background-image: url('https://mat-foucher.github.io/Harbor/images/harbor1.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background: black;
+    
 }
 
 #group3 {
