@@ -84,10 +84,12 @@
 #group2 {
     z-index: 3;
 }
-#group2 .parallax_layer--deep{
-    background-image: url('https://mat-foucher.github.io/Harbor/images/harbor1.jpg');
+#group2 .parallax_layer--back{
     color:ivory;
     font-size: 400%;
+}
+#group2 .parallax_layer--deep{
+    background-image: url('https://mat-foucher.github.io/Harbor/images/harbor1.jpg');
 }
 
 #group3 {
