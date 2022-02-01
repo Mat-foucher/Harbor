@@ -113,6 +113,8 @@ ul {
 #group3 {
     z-index: 4;
     color: ivory;
+    display: flex;
+    justify-content: center;
 }
 #group3 .parallax_layer--base{
     background: black;
