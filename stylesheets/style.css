@@ -49,6 +49,8 @@
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     z-index: 4;
+    display: flex;
+    justify-content: center;
 }
 
 .parallax_layer--back { 
