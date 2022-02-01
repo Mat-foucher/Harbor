@@ -76,7 +76,7 @@
 }
 .sub-title {
     text-align: center;
-    position: sticky;
+    position: static;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
