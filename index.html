@@ -119,7 +119,35 @@
     </style>
 </head>
 
+<script>
+  var header = document.getElementById('harbor-logo');
 
+  function fadeOutOnScroll(element) {
+    if (!element) {
+      return;
+    }
+    
+    var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
+    var elementHeight = element.offsetHeight;
+    var scrollTop = document.documentElement.scrollTop;
+    
+    var opacity = 1;
+    
+    if (scrollTop > distanceToTop) {
+      opacity = 1 - (scrollTop - distanceToTop) / elementHeight;
+    }
+    
+    if (opacity >= 0) {
+      element.style.opacity = opacity;
+    }
+  }
+
+  function scrollHandler() {
+    fadeOutOnScroll(header);
+  }
+
+  window.addEventListener('scroll', scrollHandler);
+</script>
 
 <body class="body">
     
@@ -137,7 +165,7 @@
             <div class="parallax_layer parallax_layer--base">
                 <div class="title">  </div>
             </div>
-            <div class="parallax_layer parallax_layer--back">
+            <div id='harbor-logo' class="parallax_layer parallax_layer--back">
                 <div class="title"> HARBOR </div>
             </div>
             <div class="parallax_layer parallax_layer--deep" >
