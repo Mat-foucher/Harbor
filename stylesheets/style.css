@@ -7,6 +7,8 @@ ul {
 a {
     -webkit-transition: color 1s;
     transition: color 1s;
+    color: ivory;
+    text-decoration: none;
 }
 a:hover {
     color: #ff0000;
