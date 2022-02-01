@@ -1,7 +1,17 @@
+/* BASIC HTML MODS  */
 
 ul { 
     list-style-type: none;
 }
+
+a {
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+a:hover {
+    color: #ff0000;
+}
+/*  */
 
 .card {
     height: 500px;
