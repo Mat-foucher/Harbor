@@ -146,7 +146,9 @@
     fadeOutOnScroll(header);
   }
 
-  window.addEventListener('scroll', scrollHandler);
+  if(header) {
+    window.addEventListener('scroll', scrollHandler);
+  }
 </script>
 
 <body class="body">
