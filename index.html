@@ -150,8 +150,17 @@
     window.addEventListener('scroll', scrollHandler);
   }
 
+  // STUFF FOR SMOOTH SCROLLING
   function scrollTo(hash) {
     location.hash = '#' + hash;
+  }
+  function scrollFunction1(idstring) {
+        let e = document.getElementById(idstring);
+        e.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth',
+          inline: 'start'
+        });
   }
   
   // DEBUG 3D VIEW CODE FROM PARALLAX EXAMPLE BY KEITH RICHARDS
@@ -203,12 +212,12 @@
         <div id="group3" class="parallax_group" >
             <div class="parallax_layer parallax_layer--base">
               <ul>
-                <li><a name="music"> MUSIC </a></li>
-                <li><a name="merch"> MERCH </a></li>
-                <li><a name="events"> EVENTS </a></li>
-                <li><a name="booking"> BOOKING </a></li>
-                <li><a name="about"> ABOUT </a></li>
-                <li><a name="gallery"> GALLERY </a></li>
+                <li><a onclick="scrollFunction1("group4")"> MUSIC </a></li>
+                <li><a onclick="scrollFunction1("group5")"> MERCH </a></li>
+                <li><a onclick="scrollFunction1("group6")"> EVENTS </a></li>
+                <li><a onclick="scrollFunction1("group")"> BOOKING </a></li>
+                <li><a onclick="scrollFunction1("group")"> ABOUT </a></li>
+                <li><a onclick="scrollFunction1("group")"> GALLERY </a></li>
                 
               </ul>
               
@@ -233,7 +242,7 @@
 
         <div id="group5" class="parallax_group">
           <div class="parallax_layer parallax_layer--base">
-            <div id="merch" class="title" style="font-size: 200%;"> MERCH </div>
+            <div class="title" style="font-size: 200%;"> MERCH </div>
           </div>
         </div>
 
