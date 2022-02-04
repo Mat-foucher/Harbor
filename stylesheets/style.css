@@ -148,11 +148,21 @@ a:hover {
 }
 
 #group5 {
-    z-index: 4;
+    z-index:4;
+    color:ivory;
+    display: flex;
+    justify-content:center;
+}
+#group5 .paraqllax_layer--base{
+    background: black;
+}
+
+#group6 {
+    z-index: 3;
     color: ivory;
     display: flex;
     justify-content: center;
 }
-#group5 .parallax_layer--deep {
+#group6 .parallax_layer--deep {
     background: black;
 }
