@@ -146,3 +146,13 @@ a:hover {
 #group4 .parallax_layer--back{
     background:black;
 }
+
+#group5 {
+    z-index: 4;
+    color: ivory;
+    display: flex;
+    justify-content: center;
+}
+#group5 .parallax_layer--deep {
+    background: black;
+}
