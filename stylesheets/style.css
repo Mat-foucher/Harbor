@@ -92,7 +92,7 @@ a:hover {
     position: absolute;
     left: 50%;
     top: 50%;
-    z-index: 6;
+    z-index: 999;
     width: 120px;
     height: 120px;
     margin: -76px 0 0 -76px;
@@ -116,10 +116,11 @@ a:hover {
 /* Add animation to "page content" */
 .animate-bottom {
     position: relative;
+    opacity: 0.6;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
-    animation-duration: 1s
+    animation-duration: 1s;
 }
 
 @-webkit-keyframes animatebottom {
