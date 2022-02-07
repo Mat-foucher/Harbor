@@ -120,6 +120,21 @@
 </head>
 <script async="" src="//www.google-analytics.com/analytics.js"></script>
 <script>
+  // LOADING ICON JAVASCRIPT
+  var timeout;
+
+  function timeoutFunction(){
+    timeout = setTimeout(showPage, 3000);
+  }
+
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("loadicon").style.display = "block";
+  }
+  // -----------------------
+
+
+
   var header = document.getElementById('group2');
 
   function fadeOutOnScroll(element) {
@@ -182,88 +197,88 @@
 </script>
 
 <body class="body">
-    
-    <div class="parallax">
-        <!-- BACK LAYER -->
-        <!-- <div id="group1" class="parallax_group">
-            <div class="parallax_layer parallax_layer--base" style="background: slategray">
-                <div class="title"> SCROLL DOWN </div>
-            </div>
-            
-        </div> -->
-        <label>
-          
-        </label>
-
-        <!-- DEEP LAYER -->
-        <div id="group2" class="parallax_group" >
-            <div class="parallax_layer parallax_layer--base">
-                <div class="title">  </div>
-            </div>
-            <div id='harbor-logo' class="parallax_layer parallax_layer--back">
-                <div class="title"> HARBOR </div>
-            </div>
-            <div class="parallax_layer parallax_layer--deep" >
-                <div class="title">  </div>
-            </div>
-        </div>
-
-        <!-- BACK LAYER -->
-        <div id="group3" class="parallax_group" >
-            <div class="parallax_layer parallax_layer--base">
-              <ul>
-                <li><a onclick="scrollFunction1('group4')"> MUSIC </a></li>
-                <li><a onclick="scrollFunction1('group5')"> MERCH </a></li>
-                <li><a onclick="scrollFunction1('group7')"> EVENTS </a></li>
-                <li><a onclick="scrollFunction1('group')"> BOOKING </a></li>
-                <li><a onclick="scrollFunction1('group')"> ABOUT </a></li>
-                <li><a onclick="scrollFunction1('group')"> GALLERY </a></li>
-                
-              </ul>
+    <div style="display: none;" id="loadicon" class="animate-bottom">
+      <div class="parallax">
+          <!-- BACK LAYER -->
+          <!-- <div id="group1" class="parallax_group">
+              <div class="parallax_layer parallax_layer--base" style="background: slategray">
+                  <div class="title"> SCROLL DOWN </div>
+              </div>
               
-            </div>
+          </div> -->
+          <label>
+            
+          </label>
 
-            <!-- <div class="parallax_layer parallax_layer--back" >
-                <div class="title"> MERCH </div>
-            </div> -->
-        </div>
+          <!-- DEEP LAYER -->
+          <div id="group2" class="parallax_group" >
+              <div class="parallax_layer parallax_layer--base">
+                  <div class="title">  </div>
+              </div>
+              <div id='harbor-logo' class="parallax_layer parallax_layer--back">
+                  <div class="title"> HARBOR </div>
+              </div>
+              <div class="parallax_layer parallax_layer--deep" >
+                  <div class="title">  </div>
+              </div>
+          </div>
 
-        <div id="group4" class="parallax_group">
+          <!-- BACK LAYER -->
+          <div id="group3" class="parallax_group" >
+              <div class="parallax_layer parallax_layer--base">
+                <ul>
+                  <li><a onclick="scrollFunction1('group4')"> MUSIC </a></li>
+                  <li><a onclick="scrollFunction1('group5')"> MERCH </a></li>
+                  <li><a onclick="scrollFunction1('group7')"> EVENTS </a></li>
+                  <li><a onclick="scrollFunction1('group')"> BOOKING </a></li>
+                  <li><a onclick="scrollFunction1('group')"> ABOUT </a></li>
+                  <li><a onclick="scrollFunction1('group')"> GALLERY </a></li>
+                  
+                </ul>
+                
+              </div>
+
+              <!-- <div class="parallax_layer parallax_layer--back" >
+                  <div class="title"> MERCH </div>
+              </div> -->
+          </div>
+
+          <div id="group4" class="parallax_group">
+              <div class="parallax_layer parallax_layer--base">
+                  <div id="music" class="title" style="font-size: 200%;"> MUSIC </div>
+              </div>
+              <div class="parallax_layer parallax_layer--back">
+                <video autoplay loop muted height="100%" width="100%" preload="auto"  name="contellations-promo">
+                  <source src="https://mat-foucher.github.io/Harbor/images/constellations_promo.mp4" type="video/mp4">
+                </video>
+
+              </div>
+          </div>
+
+          <div id="group5" class="parallax_group">
             <div class="parallax_layer parallax_layer--base">
-                <div id="music" class="title" style="font-size: 200%;"> MUSIC </div>
+              <div class="title" style="font-size: 200%;"> MERCH </div>
             </div>
-            <div class="parallax_layer parallax_layer--back">
-              <video autoplay loop muted height="100%" width="100%" preload="auto"  name="contellations-promo">
-                <source src="https://mat-foucher.github.io/Harbor/images/constellations_promo.mp4" type="video/mp4">
+          </div>
+
+          <div id="group6" class="parallax_group">
+            <div class="parallax_layer parallax_layer--base">
+                <div class="title" style="font-size: 200%;">  </div>
+            </div>
+            <div class="parallax_layer parallax_layer--deep">
+              <video autoplay loop muted height="100%" width="100%" preload="auto"  name="ai-video">
+                <source src="https://mat-foucher.github.io/Harbor/images/shortai2.mp4" type="video/mp4">
               </video>
-
             </div>
-        </div>
+          </div>
 
-        <div id="group5" class="parallax_group">
-          <div class="parallax_layer parallax_layer--base">
-            <div class="title" style="font-size: 200%;"> MERCH </div>
+          <div id="group7" class="parallax_group">
+            <div class="parallax_layer parallax_layer--base">
+              <div class="title" style="font-size: 200%;"> EVENTS </div>
+            </div>
           </div>
-        </div>
-
-        <div id="group6" class="parallax_group">
-          <div class="parallax_layer parallax_layer--base">
-              <div class="title" style="font-size: 200%;">  </div>
-          </div>
-          <div class="parallax_layer parallax_layer--deep">
-            <video autoplay loop muted height="100%" width="100%" preload="auto"  name="ai-video">
-              <source src="https://mat-foucher.github.io/Harbor/images/shortai2.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-
-        <div id="group7" class="parallax_group">
-          <div class="parallax_layer parallax_layer--base">
-            <div class="title" style="font-size: 200%;"> EVENTS </div>
-          </div>
-        </div>
+      </div>
     </div>
-
 
 
 
