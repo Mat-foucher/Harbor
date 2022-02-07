@@ -88,6 +88,15 @@ a:hover {
 }
 
 /* LOADING ICON(S) */
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url('https://mat-foucher.github.io/Harbor/images/loading.gif') no-repeat center center rgba(0,0,0,0.25);
+    z-index: 999;
+
+}
+
 #loader {
     position: absolute;
     left: 50%;
@@ -116,7 +125,7 @@ a:hover {
 /* Add animation to "page content" */
 .animate-bottom {
     position: relative;
-    opacity: 0.6;
+    
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
