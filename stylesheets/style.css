@@ -248,3 +248,16 @@ label .navigation {
 #group7 .parallax_layer--base {
     background: black;
 }
+
+/* FLEXBOXERS */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container > div {
+    width: auto;
+}
+
+/* ---------- */
