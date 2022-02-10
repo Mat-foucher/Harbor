@@ -115,7 +115,7 @@ a:hover {
 
 /* GIF LOADING ICON */
 #loading {
-    background: url('reticle-loadfinal.gif') no-repeat center center;
+    background: url('https://mat-foucher.github.io/Harbor/images/reticle-loadfinal.gif') no-repeat center center;
     position: absolute;
     top: 0;
     left: 0;
