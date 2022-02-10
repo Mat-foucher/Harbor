@@ -122,11 +122,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
   // LOADING ICON JAVASCRIPT GIF
-  // function hideLoader() {
-  //   $('#loading').hide();
-  // }
-  // $(window).ready(hideLoader);
-  // setTimeout(hideLoader, 20* 1000);
+  function hideLoader() {
+    $('#loading').hide();
+  }
+  $(window).ready(hideLoader);
+  setTimeout(hideLoader, 20* 1000);
   $(window).load(function() {
     $("body").fadeIn(2000);
   });
