@@ -208,6 +208,7 @@ label .navigation {
 #group3 .parallax_layer--fore{
     background: none;
     text-align: left;
+    line-height: 90px;
 }
 #group3 .parallax_layer--base{
     background: black;
