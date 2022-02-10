@@ -259,6 +259,7 @@ label .navigation {
 .flex-container > div {
     width: auto;
     height: auto;
+    overflow: hidden;
 }
 
 /* ---------- */
