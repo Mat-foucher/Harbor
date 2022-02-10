@@ -79,7 +79,6 @@ label .navigation {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     z-index: 4;
-    text-align: left;
     vertical-align: middle;
     line-height: 90px;
 }
@@ -205,6 +204,10 @@ label .navigation {
     color: ivory;
     display: flex;
     justify-content: center;
+}
+#group3 .parallax_layer--fore{
+    background: none;
+    text-align: left;
 }
 #group3 .parallax_layer--base{
     background: black;
