@@ -8,6 +8,10 @@ ul {
     list-style-type: none;
 }
 
+li {
+    color: ivory;
+}
+
 a {
     -webkit-transition: color 1s;
     transition: color 1s;
