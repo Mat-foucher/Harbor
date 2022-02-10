@@ -121,6 +121,16 @@
 <script async="" src="https://www.google-analytics.com/analytics.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
+  // LOADING ICON JAVASCRIPT GIF
+  // function hideLoader() {
+  //   $('#loading').hide();
+  // }
+  // $(window).ready(hideLoader);
+  // setTimeout(hideLoader, 20* 1000);
+  $(window).load(function() {
+    $("#loading").fadeIn(2000);
+  });
+  // ---------------------------
   // LOADING ICON JAVASCRIPT
   var timeout;
 
@@ -133,13 +143,7 @@
     document.getElementById("loadicon").style.display = "block";
   }
   // -----------------------
-  // LOADING ICON JAVASCRIPT GIF
-  function hideLoader() {
-    $('#loading').hide();
-  }
-  $(window).ready(hideLoader);
-  setTimeout(hideLoader, 20* 1000);
-  // ---------------------------
+  
 
 
   var header = document.getElementById('group2');
