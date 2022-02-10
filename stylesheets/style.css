@@ -113,10 +113,22 @@ a:hover {
     100% {transform: rotate(360deg);}
 }
 
+/* GIF LOADING ICON */
+#loading {
+    background: url('reticle-loadfinal.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+
+/* ---------------- */
+
 /* Add animation to "page content" */
 .animate-bottom {
     position: relative;
-    opacity: 0.6;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
