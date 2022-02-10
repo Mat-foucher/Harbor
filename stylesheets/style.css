@@ -162,7 +162,8 @@ label .navigation {
 .title {
     text-align: center;
     position: absolute;
-    left: 50%;
+    /* Set left; 50% if desire is to have text in center of parallax groups */
+    left: 15%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
