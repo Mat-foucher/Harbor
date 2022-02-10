@@ -22,6 +22,10 @@ a:hover {
     color: #ff0000;
 }
 
+label .navigation {
+    width: 15%;
+}
+
 /* PARALLAX FORMATTING */
 
 .card {
