@@ -115,6 +115,17 @@
       text-align:center;
       width: 100%;
     }
+    /* Loading shit
+    ---------------------------------------------- */
+    .loader2 {
+      position:fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url('https://mat-foucher.github.io/Harbor/images/reticle-loadfinal.gif') 50% 50% no-repeat black;
+    }
 
   </style>
 </head>
@@ -122,26 +133,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
   // LOADING ICON JAVASCRIPT GIF
-  function hideLoader() {
-    $('#loading').hide();
-  }
-  $(window).ready(hideLoader);
-  setTimeout(2000, hideLoader);
   $(window).load(function() {
-    $("body").fadeIn(2000);
+    $(".loader2").fadeOut("slow");
   });
-  // ---------------------------
-  // LOADING ICON JAVASCRIPT
-  var timeout;
-
-  function timeoutFunction(){
-    timeout = setTimeout(showPage, 3000);
-  }
-
-  function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("loadicon").style.display = "block";
-  }
   // -----------------------
   
 
@@ -207,10 +201,10 @@
 
 </script>
 
-<div id="loading"></div>
+
 <!-- <body onload="timeoutFunction()" class="body"> -->
 <body class="body">
-
+    <div class="loader2"></div>
     <!-- <div style="display: none;" id="loadicon" class="animate-bottom"> -->
     <label class="navigator">
       <ul>
