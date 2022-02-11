@@ -223,7 +223,12 @@ label .navigation {
     background: none;
 }
 #group4 .parallax_layer--base{
+    -webkit-transition: color 1s;
+    transition: color 1s;
     background: url('https://mat-foucher.github.io/Harbor/images/constellations_single_artwork.PNG') no-repeat center center;
+}
+#group4 .parallax_layer--base:hover{
+    color: ivory;
 }
 #group4 .parallax_layer--back{
     background:black;
