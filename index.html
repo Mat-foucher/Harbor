@@ -137,8 +137,8 @@
     $(".loader2").show().fadeOut(5000);
   });
 
-  $(document).ready(function(){
-    $('body').hide().fadeIn(8000).delay(10000);
+  $(window).on('load',function(){
+    $('#content').hide().fadeIn(8000).delay(10000);
   });
   // -----------------------
   

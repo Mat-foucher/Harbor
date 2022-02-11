@@ -40,6 +40,10 @@ label .navigation {
     background: black;
 }
 
+#content{
+    background:none;
+}
+
 .parallax {
     font-size: 200%;
 }
