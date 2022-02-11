@@ -253,6 +253,7 @@ label .navigation {
 }
 #group5 .parallax_layer--base {
     background: black ;
+    overflow:hidden;
 }
 #group5 .parallax_layer--base > img{
     -webkit-transition: color 1s;
@@ -283,7 +284,8 @@ label .navigation {
 }
 #group7 .parallax_layer--base {
     background: black;
-    text-align: center center;
+    display: flex;
+    justify-content: center;
 }
 
 /* FLEXBOXERS */
