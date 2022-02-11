@@ -287,7 +287,10 @@ label .navigation {
     display: flex;
     justify-content: center;
 }
-
+#group7 .parallax_layer--base > ul{
+    list-style-type: none;
+    padding-top: 35%;
+}
 /* FLEXBOXERS */
 
 .flex-container {
