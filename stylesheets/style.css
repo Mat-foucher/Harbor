@@ -267,8 +267,12 @@ label .navigation {
     display: flex;
     justify-content: center;
 }
+#group7 .parallax_layer--fore{
+    background: none;
+}
 #group7 .parallax_layer--base {
     background: black;
+    text-align: center;
 }
 
 /* FLEXBOXERS */
