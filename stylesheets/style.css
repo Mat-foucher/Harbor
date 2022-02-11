@@ -235,8 +235,7 @@ label .navigation {
     background: none;
 }
 #group5 .parallax_layer--base {
-    background-image: url('https://mat-foucher.github.io/Harbor/images/veil_mockup.png');
-    background-repeat: no-repeat;
+    background: black url('https://mat-foucher.github.io/Harbor/images/veil_mockup.png') no-repeat center center;
 }
 
 #group6 {
