@@ -248,7 +248,14 @@ label .navigation {
     background: none;
 }
 #group5 .parallax_layer--base {
-    background: black url('https://mat-foucher.github.io/Harbor/images/veil_mockup.png') no-repeat top center;
+    background: black ;
+}
+#group5 .parallax_layer--base > img{
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+#group5 .parallax_layer--base > img:hover {
+    color: ivory;
 }
 
 #group6 {
