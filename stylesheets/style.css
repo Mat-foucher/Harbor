@@ -231,8 +231,12 @@ label .navigation {
     display: flex;
     justify-content:center;
 }
-#group5 .parallax_layer--base{
-    background: black;
+#group5 .parallax_layer--fore {
+    background: none;
+}
+#group5 .parallax_layer--base {
+    background-image: url('https://mat-foucher.github.io/Harbor/images/veil_mockup.png');
+    background-repeat: no-repeat;
 }
 
 #group6 {
