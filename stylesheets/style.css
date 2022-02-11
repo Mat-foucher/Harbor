@@ -272,7 +272,7 @@ label .navigation {
 }
 #group7 .parallax_layer--base {
     background: black;
-    text-align: center;
+    text-align: center center;
 }
 
 /* FLEXBOXERS */
