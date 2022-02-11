@@ -181,6 +181,8 @@ label .navigation {
     transform: translate(-50%, -50%);
 }
 
+
+
 /*------------------------ GROUP FORMATTING CSS ------------------------*/
 
 #group1 {
@@ -283,7 +285,7 @@ label .navigation {
     background: none;
 }
 #group7 .parallax_layer--base {
-    background: black;
+    background: black url('https://mat-foucher.github.io/Harbor/images/stage1.jpg') no-repeat center center;
     display: flex;
     justify-content: center;
 }
