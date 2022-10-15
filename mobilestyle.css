@@ -147,7 +147,7 @@
 .imageContainer {
     width:100%;
     height:100%;
-    background-image:url("https://harbor.band/Harbor/images/harbor_live_poster.png");
+    background-image: url("images/harbor_live_poster.png");
 }
 
 a {
