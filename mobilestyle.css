@@ -140,3 +140,22 @@
     background:black;
     
 }
+
+
+/* MISC */
+
+.imageContainer {
+    width:100%;
+    height:100%;
+    background-image:url("images/harbor_live_poster.png");
+}
+
+a {
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    color:crimson;
+    text-decoration: none;
+}
+a:hover {
+    color:ivory;
+}
