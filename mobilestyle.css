@@ -130,12 +130,12 @@
     width:100%;
     z-index: 3;
 }
-#group2 .parallax_layer--back{
+#group2 .parallax_layer--fore{
     width:100%;
     color:ivory;
     font-size: 400%;
 }
-#group2 .parallax_layer--deep{
+#group2 .parallax_layer--base{
     width:100%;
     background:black;
     
