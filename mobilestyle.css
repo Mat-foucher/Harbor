@@ -159,3 +159,9 @@ a {
 a:hover {
     color:ivory;
 }
+
+ul { 
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 10%;
+}
