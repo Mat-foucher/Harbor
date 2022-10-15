@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.body {
+    font: 100% / 1.5 monospace;
+    background: black;
+}
+
 .wrapper {
     width: 100%;
 
