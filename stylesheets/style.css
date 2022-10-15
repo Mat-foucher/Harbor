@@ -27,6 +27,12 @@ label .navigation {
     width: 15%;
 }
 
+.wrapper {
+    width: 100%;
+}
+
+
+
 /* PARALLAX FORMATTING */
 
 .card {

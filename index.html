@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel = "stylesheet" href="stylesheets/style.css">
 
   <title>HARBOR</title>
   <style>
-          
+    
+
+
 
     /* Parallax base styles
     --------------------------------------------- */
@@ -131,6 +133,12 @@
 </head>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+  // MOBILE REDIRECT:
+  if(screen.width <= 699) {
+    document.location = "https://harbor.band/indexmobile.html";
+  }
+</script>
 <script>
   // LOADING ICON JAVASCRIPT GIF
   $(window).on('load',function() {
@@ -240,11 +248,12 @@
         <div id="group3" class="parallax_group" >
             <div class="parallax_layer parallax_layer--fore">
               <ul>
+                <li><a onclick="window.location.href='https://indd.adobe.com/view/2ad40283-a86c-4bbf-9217-19f81833cc33';"> EPK </a></li>
                 <li><a onclick="scrollFunction1('group4')"> MUSIC </a></li>
                 <li><a onclick="scrollFunction1('group5')"> MERCH </a></li>
                 <li><a onclick="scrollFunction1('group6')"> EVENTS </a></li>
                 <li><a onclick="scrollFunction1('group7')"> BOOKING </a></li>
-                <li><a onclick="scrollFunction1('group')"> GALLERY </a></li>
+                
               </ul>
             </div>
             <div class="parallax_layer parallax_layer--base">
