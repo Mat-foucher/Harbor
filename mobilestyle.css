@@ -109,3 +109,34 @@
     transform: translateZ(-600px) scale(3);
     z-index: 2;
 }
+
+
+#group1 {
+    width:100%;
+    z-index: 5;
+}
+#group1 .parallax_layer--base{
+    width:100%;
+}
+#group1 .parallax_layer--back{
+    width:100%;
+}
+#group1 .parallax_layer--deep{
+    width:100%;
+    background: black;
+}
+
+#group2 {
+    width:100%;
+    z-index: 3;
+}
+#group2 .parallax_layer--back{
+    width:100%;
+    color:ivory;
+    font-size: 400%;
+}
+#group2 .parallax_layer--deep{
+    width:100%;
+    background:black;
+    
+}
