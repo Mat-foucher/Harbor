@@ -5,7 +5,7 @@
 
 .body {
     font: 100% / 1.5 monospace;
-    background: black;
+    background-image: url(images/LCD\ BACKGROUND.png);
 }
 
 .wrapper {
