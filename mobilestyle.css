@@ -8,6 +8,10 @@ body {
     background-color:#AFE1AF;
 }
 
+img {
+    width: 100%;
+}
+
 .wrapper {
     width: 100%;
 
